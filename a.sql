@@ -16,7 +16,7 @@ create table item(
 );
 
 create table hdqADD(
-    itemNumber int,
+    itemNumber int,//sid?//
 	  city varchar(10) primary key,
     quantity int,
     foreign key(itemNumber) REFERENCES item(itemNumber)
